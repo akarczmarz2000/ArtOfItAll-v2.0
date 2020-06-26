@@ -1,3 +1,53 @@
+# Table of Content
+- [Art Of It All - v2.0](#art-of-it-all---v20)
+- [UX](#ux)
+  * [User Story](#user-story)
+  * [Wireframe](#wireframe)
+    + [Home Page Wireframe](#home-page-wireframe)
+    + [Products Page Wireframe](#products-page-wireframe)
+    + [Artists Page Wireframe](#artists-page-wireframe)
+    + [Request Page Wireframe](#request-page-wireframe)
+    + [Chat Select Page Wireframe](#chat-select-page-wireframe)
+    + [Chat Page Wireframe](#chat-page-wireframe)
+    + [Policies Page Wireframe](#policies-page-wireframe)
+    + [Profile Page Wireframe](#profile-page-wireframe)
+    + [Edit Profile Page Wireframe](#edit-profile-page-wireframe)
+    + [Sign In and Up Pages Wireframe](#sign-in-and-up-pages-wireframe)
+    + [Checkout Pages Wireframe](#checkout-pages-wireframe)
+  * [Mockup](#mockup)
+- [Features of the site](#features-of-the-site)
+  * [Features](#features)
+    + [UX Features](#ux-features)
+    + [Home Features](#home-features)
+    + [Products Features](#products-features)
+    + [Policies Features](#policies-features)
+    + [Request Features](#request-features)
+    + [Chat Features](#chat-features)
+    + [Artists Features](#artists-features)
+    + [Checkout Features](#checkout-features)
+    + [Profile Features](#profile-features)
+    + [Sign In](#sign-in)
+    + [Sign Up](#sign-up)
+  * [Features Left to Implement](#features-left-to-implement)
+    + [UX Features](#ux-features-1)
+    + [Home Features](#home-features-1)
+    + [Products Features](#products-features-1)
+    + [Policies Features](#policies-features-1)
+    + [Request Features](#request-features-1)
+    + [Chat Features](#chat-features-1)
+    + [Artists Features](#artists-features-1)
+    + [Checkout Features](#checkout-features-1)
+    + [Profile Features](#profile-features-1)
+    + [Sign In](#sign-in-1)
+    + [Sign Up](#sign-up-1)
+  * [Existing Features](#existing-features)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Content](#content)
+- [Media](#media)
+- [Acknowledgements](#acknowledgements)
+
 # Art Of It All - v2.0
 This is a recreation of one of my previous projects. 
 The idea of this is displaying art from different artists for sale. 
@@ -12,38 +62,63 @@ The interaction I want for this are:-
 
 # UX
 ## User Story
-This link goes to a sheet for user stories - [Art Of It All - User Story](https://docs.google.com/spreadsheets/d/1Xfan3NTHD1KlfTOiNTYsND1w7PdOSklX85RNjhFjeRc/edit?usp=sharing)
-
+This link goes to a sheet for user stories - 
+[Art Of It All - User Story](https://docs.google.com/spreadsheets/d/1Xfan3NTHD1KlfTOiNTYsND1w7PdOSklX85RNjhFjeRc/edit?usp=sharing)
 ## Wireframe
+
+[Top](#table-of-content)
 ### Home Page Wireframe
 ![Home Page Wireframe](/assets/Home.png)
+
+[Top](#table-of-content)
 ### Products Page Wireframe
 ![Products Page Wireframe](/assets/Products.png)
+
+[Top](#table-of-content)
 ### Artists Page Wireframe
 ![Artists Page Wireframe](/assets/Artists.png)
+
+[Top](#table-of-content)
 ### Request Page Wireframe
 ![Request Page Wireframe](/assets/Request.png)
+
+[Top](#table-of-content)
 ### Chat Select Page Wireframe
 ![Chat Select Page Wireframe](/assets/Chat-Select.png)
+
+[Top](#table-of-content)
 ### Chat Page Wireframe
 ![Chat Page Wireframe](/assets/Chat.png)
+
+[Top](#table-of-content)
 ### Policies Page Wireframe
 ![Policies Page Wireframe](/assets/Policies.png)
+
+[Top](#table-of-content)
 ### Profile Page Wireframe
 ![Profile Page Wireframe](/assets/Profile.png)
+
+[Top](#table-of-content)
 ### Edit Profile Page Wireframe
 ![Edit Profile Page Wireframe](/assets/Edit-Profile.png)
+
+[Top](#table-of-content)
 ### Sign In and Up Pages Wireframe
 ![Sign In Page Wireframe](/assets/Sign-In.png)
 ![Sign Up Page Wireframe](/assets/Sign-Up.png)
+
+[Top](#table-of-content)
 ### Checkout Pages Wireframe
 ![Checkout Page Wireframe](/assets/Checkout.png)
 
-## Mockup 
+
+[Top](#table-of-content)
+## Mockup
 ![Art Of It All Colour Mockup](/assets/ArtOfItAll_color_mockup.psd.png)
 
 # Features of the site
 ## Features
+[Top](#table-of-content)
 ### UX Features
 * Sticky bar at the top with navigation bar, site title, company logo, 
 page title, checkout button, sign up and sign in button 
@@ -118,6 +193,7 @@ will allow the user to edit any of there except username
 * Will send confirmation email that they need to access before they are able to enter the site
 
 ## Features Left to Implement
+[Top](#table-of-content)
 ### UX Features
 * Sticky bar at the top with navigation bar, site title, company logo, 
 page title, checkout button, sign up and sign in button 
@@ -192,16 +268,23 @@ will allow the user to edit any of there except username
 * Will send confirmation email that they need to access before they are able to enter the site
 
 ## Existing Features
+[Top](#table-of-content)
 
 # Technologies Used
+[Top](#table-of-content)
 
 # Deployment
+[Top](#table-of-content)
 
 # Credits
+[Top](#table-of-content)
 
 # Content
+[Top](#table-of-content)
 
 # Media
+[Top](#table-of-content)
 
 # Acknowledgements
+[Top](#table-of-content)
 The idea for the user story layout came from Chris Z
