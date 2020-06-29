@@ -1,0 +1,102 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+        {% block meta %}
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% endblock %}
+
+        {% block corecss %}
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        {% endblock %}
+
+        {% block corejs %}
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        {% endblock %}
+
+        <title>Art Of It All - {% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid fixed-top">
+                <div class="row pt-lg-2 d-none d-lg-flex hdr-color">
+                    <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+                        <a class="nav-link" href="{% url 'home' %}">
+                            <h2 class="txt">Art Of It All <img class="logo" src="/media/artofitall-logo2.png"></h2>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                        <h2 class="txt">{% block page_name %}{% endblock %}</h2>
+                    </div>
+                    <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                        <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                            <li class="list-inline-item">
+                                {% if request.user.is_authenticated %}
+                                    <div class="text-center link-btn">
+                                        <a class="nav-link" href="">
+                                            <h5 class="my-0 txt">Chat</h5>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                            </li>
+                            <li class="list-inline-item dropdown">
+                                <a class="nav-link link-btn" href="#" id="user-options" data-toggle="dropdown">
+                                    <div class="text-center">
+                                        {% if request.user.is_authenticated %}
+                                            <h5 class="my-0 txt">My Account</h5>
+                                        {% else %}
+                                            <h5 class="my-0 txt">Sign Up/Sign In</h5>
+                                        {% endif %}
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu border-1 hdr-color" aria-labelledby="user-options">
+                                    {% if request.user.is_authenticated %}
+                                        {% if request.user.is_superuser %}
+                                            <a href="" class="dropdown-item hdr my-1 link-btn">Product Management</a>
+                                        {% endif %}
+                                        <a href="{% url 'account_logout' %}" class="dropdown-item hdr my-1 link-btn">Logout</a>
+                                    {% else %}
+                                        <a href="{% url 'account_signup' %}" class="dropdown-item hdr my-1 link-btn">Register</a>
+                                        <a href="{% url 'account_login' %}" class="dropdown-item hdr my-1 link-btn">Login</a>
+                                    {% endif %}
+                                </div>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="link-btn nav-link" href="">
+                                    <div class="text-center">
+                                        <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                        <h5 class="my-0 txt">
+                                            {% if grand_total %}
+                                                ${{ grand_total|floatformat:2 }}
+                                            {% else %}
+                                                $0.00
+                                            {% endif %}
+                                        </h5>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row d-none d-lg-flex">
+                    {% include 'includes/main-nav.html' %}
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10 bdy-container txt">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </body>
+</html>

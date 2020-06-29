@@ -1,0 +1,24 @@
+.hdr-color {
+    background-color: #76c0df;
+}
+
+.txt {
+    color: #e1e7ea;
+}
+
+.link-btn {
+    background-color: #5db0d3;
+}
+
+body {
+    padding-top: 20vh;
+    background-color: #ded9d9;
+}
+
+.bdy-container {
+    background-color: #83d0cf;
+}
+
+.carousel-style {
+    height: 40vw;
+}
