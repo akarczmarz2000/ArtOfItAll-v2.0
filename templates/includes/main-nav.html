@@ -1,19 +1,26 @@
 <ul class="list-inline list-unstyled mx-auto">
     <li class="list-inline-item dropdown mx-1">
+        <a class="nav-link link-btn" href="{% url 'home' %}">
+            <div class="text-center link-btn nav-link">
+                <h6 class="my-0 txt">Home</h6>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item dropdown mx-1">
         <a class="nav-link link-btn" href="#" data-toggle="dropdown">
             <div class="text-center link-btn nav-link">
                 <h6 class="my-0 txt">Products</h6>
             </div>
         </a>
         <div class="dropdown-menu border-1 hdr-color txt">
-            <a href="" class="dropdown-item txt">All Products</a>
-            <a href="" class="dropdown-item txt">Cartoons</a>
-            <a href="" class="dropdown-item txt">Digital Art</a>
-            <a href="" class="dropdown-item txt">Manga</a>
-            <a href="" class="dropdown-item txt">Paintings</a>
-            <a href="" class="dropdown-item txt">Photography</a>
-            <a href="" class="dropdown-item txt">Sculptures</a>
-            <a href="" class="dropdown-item txt">Sketches</a>
+            <a href="{% url 'products' %}" class="dropdown-item txt">All Products</a>
+            <a href="{% url 'products' %}?category=cartoons&direction=asc" class="dropdown-item txt">Cartoons</a>
+            <a href="{% url 'products' %}?category=digital_art&direction=asc" class="dropdown-item txt">Digital Art</a>
+            <a href="{% url 'products' %}?category=manga&direction=asc" class="dropdown-item txt">Manga</a>
+            <a href="{% url 'products' %}?category=painting&direction=asc" class="dropdown-item txt">Paintings</a>
+            <a href="{% url 'products' %}?category=photography&direction=asc" class="dropdown-item txt">Photography</a>
+            <a href="{% url 'products' %}?category=sculptures&direction=asc" class="dropdown-item txt">Sculptures</a>
+            <a href="{% url 'products' %}?category=sketches&direction=asc" class="dropdown-item txt">Sketches</a>
         </div>
     </li>
     <li class="list-inline-item dropdown mx-1">                        

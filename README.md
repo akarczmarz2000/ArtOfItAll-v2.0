@@ -195,31 +195,16 @@ will allow the user to edit any of there except username
 ## Features Left to Implement
 [Top](#table-of-content)
 ### UX Features
-* Sticky bar at the top with navigation bar, site title, company logo, 
-page title, checkout button, sign up and sign in button 
-* Sign In that will allow people to login with an account made on the page
-* Sign Up that allows people to create an account for the page
 * Has a link to chats that people have because of requests
 * Has checkout total and link to total bag
 * Page structure for multiple screen sizes made by Bootstrap
-* Links to the products page that has a drop down for different art types
 * Links to artist of certain type of art
 ### Home Features
-* Slide with art with the tag popular cycling through
-* Show a list of popular art displayed in row of 4 on normal screen,
- 2 on smaller and 1 on smallest
-* Allow to refine popular by category and sort by different options
+* Slide is created, filter with the rating needed
 ### Products Features
-* Picture of the art displayed in a grid with the product name above, 
-price across the bottom of the picture and description underneath the picture
-* A filter section on the top of the page, this will be sticky underneath the main bar
-* The user will be able to filter by category and search bar
-* The user will be able to sort by different varibles like rating, alphabet ect
-* Clicking the picture will show more information about the image on a new page
-* When the add button is clicked the corrisponding is added to basket
-* Search results will be displayed before image, 
-with the keyword and number of results returned
-* The user will be able to choose a size and quantity before adding product to there bag
+* When the add button is clicked the corrisponding product is added to basket
+* Search needs to be added
+* The size selection before adding product to there bag needs to be added
 ### Policies Features
 * The page will have three titles. Purchase, request and chat policies
 * These titles will have a download link to a copy of the policies
@@ -261,15 +246,37 @@ agreed price abd link to more details
 * The edit page will display all already know information and 
 will allow the user to edit any of there except username
 ### Sign In
-* Will ask for username and password
-* Will use allauth to authenticate
+* Complete
 ### Sign Up
-* Will ask for some details like name, username, password ect to create account
-* Will send confirmation email that they need to access before they are able to enter the site
+* Complete
 
 ## Existing Features
 [Top](#table-of-content)
-
+### UX Features
+* Sticky bar at the top with navigation bar, site title, company logo, 
+page title, checkout button, sign up and sign in button 
+* Sign In that will allow people to login with an account made on the page
+* Sign Up that allows people to create an account for the page
+* Links to the products page that has a drop down for different art types
+### Home Features
+* Slide with art, need to create filter for popular art
+* Show a list of popular art displayed in row of 4 on normal screen,
+ 2 on smaller and 1 on smallest
+### Products Features
+* Picture of the art displayed in a grid with the product name, 
+price, rating and description underneath the picture
+* A filter at the top corner to allow sort by.. 
+The category sort in the navigation bar as a dropdown under products
+* Clicking the picture will show more information about the image on a new page
+* Selected category results will be displayed before image, 
+with the keyword and number of results returned, search will be added later
+* The user can choose quantity, size needs to be added
+### Sign In
+* Asks for username and password
+* The site uses allauth to authenticate
+### Sign Up
+* Asks for some details like name, username, password ect to create account
+* Sends confirmation email that they need to access before they are able to enter the site
 # Technologies Used
 [Top](#table-of-content)
 

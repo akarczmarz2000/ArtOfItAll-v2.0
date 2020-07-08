@@ -1,0 +1,47 @@
+[
+    {"pk": 1, 
+    "model": "products.category", 
+    "fields": {
+        "name": "cartoons", 
+        "friendly_name": "Cartoons"
+        }
+    }, 
+    {"pk": 2, 
+    "model": "products.category", 
+    "fields": {"name": "digital_art", 
+    "friendly_name": "Digital Art"}}, 
+    {"pk": 3, "model": "products.category", 
+    "fields": {
+        "name": "manga", 
+        "friendly_name": "Manga"
+        }
+    }, 
+    {"pk": 4,
+     "model": "products.category", 
+     "fields": {
+        "name": "paintings", 
+        "friendly_name": "Paintings"
+        }
+    }, 
+    {"pk": 5, 
+    "model": "products.category", 
+    "fields": {
+        "name": "photography", 
+        "friendly_name": "Photography"
+        }
+    }, 
+    {"pk": 6, 
+    "model": "products.category", 
+    "fields": {
+        "name": "sculptures", 
+        "friendly_name": "Sculptures"
+        }
+    },
+    {"pk": 7, 
+    "model": "products.category", 
+    "fields": {
+        "name": "sketches", 
+        "friendly_name": "Sketches"
+        }
+    }
+]

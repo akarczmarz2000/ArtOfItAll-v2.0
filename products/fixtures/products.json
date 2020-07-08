@@ -1,0 +1,142 @@
+[
+{"pk": 1, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "The Killing Joke",
+	"artist": "Brian Bollard",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 0, 
+	"image_url": "https://www.wemadethis.co.uk/wp-content/uploads/2010/09/bb_killingjoke.jpg",
+	"image": "cartoon01.jpg"
+	}
+}, 
+{"pk": 2, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Tain't the meat... its the humanties",
+	"artist": "Brian Bollard",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 1, 
+	"image_url": "https://i.redd.it/pwwgyt7u4nb31.jpg",
+	"image": "cartoon02.jpg"
+	}
+}, 
+{"pk": 3, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Judge Dread Mega-Special (1988)",
+	"artist": "Brian Bollard",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 1.5, 
+	"image_url": "", 
+	"image": "cartoon03.jpg"
+	}
+}, 
+{"pk": 4, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "The Bristol Board",
+	"artist": "Brian Bollard",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 2, 
+	"image_url": "https://66.media.tumblr.com/119c3f4ee7070bb81a4897c3944f4ae1/tumblr_pb7lxb643Y1rhjbado1_1280.jpg", 
+	"image": "cartoon04.jpg"
+	}
+}, 
+{"pk": 5, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Justic League Undercover",
+	"artist": "Brian Bollard",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 2.5, 
+	"image_url": "https://i.redd.it/bzhi5it3j6r41.jpg", 
+	"image": "cartoon05.jpg"
+	}
+}, 
+{"pk": 6, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Who is your favourite simpsons character?",
+	"artist": "Nina Matsumoto",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 3, 
+	"image_url": "https://i.pinimg.com/originals/04/1d/dc/041ddc863b26a92706a6d5aab1ac52a7.jpg", 
+	"image": "cartoon06.jpg"
+	}
+}, 
+{"pk": 7, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Ninja Stars",
+	"artist": "Nina Matsumoto",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 3.5, 
+	"image_url": "https://cdn.shopify.com/s/files/1/0014/1962/products/product_messenger_ninjastars_shirt_designview_1024x1024.png?v=1541194304", 
+	"image": "cartoon07.jpg"
+	}
+}, 
+{"pk": 8, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Mimikyu and Ralsei",
+	"artist": "Nina Matsumoto",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 4, 
+	"image_url": "https://cdn.donmai.us/sample/a8/2c/__mimikyu_and_ralsei_pokemon_and_1_more_drawn_by_nina_matsumoto__sample-a82c35b9946851a13cc46762cd2ab08b.jpg", 
+	"image": "cartoon08.jpg"
+	}
+}, 
+{"pk": 9, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Warped Reality of Futurama",
+	"artist": "Nina Matsumoto",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 4.5, 
+	"image_url": "https://townsquare.media/site/622/files/2011/05/ninamatsumoto8.jpg", 
+	"image": "cartoon09.jpg"
+	}
+}, 
+{"pk": 10, 
+"model": "products.product", 
+"fields": {
+	"sku": "pp5001340155", 
+	"name": "Best Friends",
+	"artist": "Tony Riff",
+	"description": "",
+	"price": 50.00, 
+	"category": 1, 
+	"rating": 5, 
+	"image_url": "", 
+	"image": "cartoon10.jpg"
+	}
+}
+] 
