@@ -4,6 +4,11 @@
 {% block title %}Home{% endblock %}
 {% block page_name %}Home{% endblock %}
 {% block content %}
+        <div class="row">
+            <div id="top" class="col text-center mt-3">
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -108,7 +113,7 @@
                     {% endfor %}
                 </div>
     <div class="btt-button shadow-sm rounded-0 border border-black">
-        <a class="btt-link d-flex h-100">
+        <a class="btt-link d-flex h-100" href="#top">
             <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
         </a>	
     </div>

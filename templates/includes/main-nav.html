@@ -30,7 +30,14 @@
             </div>
         </a>
         <div class="dropdown-menu border-1 hdr-color">
-            <a href="" class="dropdown-item"></a>
+            <a href="{% url 'artists' %}" class="dropdown-item">All Artists</a>
+            <a href="{% url 'artists' %}?category=cartoons&direction=asc" class="dropdown-item txt">Cartoons</a>
+            <a href="{% url 'artists' %}?category=digital_art&direction=asc" class="dropdown-item txt">Digital Art</a>
+            <a href="{% url 'artists' %}?category=manga&direction=asc" class="dropdown-item txt">Manga</a>
+            <a href="{% url 'artists' %}?category=painting&direction=asc" class="dropdown-item txt">Paintings</a>
+            <a href="{% url 'artists' %}?category=photography&direction=asc" class="dropdown-item txt">Photography</a>
+            <a href="{% url 'artists' %}?category=sculptures&direction=asc" class="dropdown-item txt">Sculptures</a>
+            <a href="{% url 'artists' %}?category=sketches&direction=asc" class="dropdown-item txt">Sketches</a>
         </div>
     </li>
     <li class="list-inline-item dropdown mx-1">
