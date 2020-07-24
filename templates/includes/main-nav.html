@@ -30,7 +30,7 @@
             </div>
         </a>
         <div class="dropdown-menu border-1 hdr-color">
-            <a href="{% url 'artists' %}" class="dropdown-item">All Artists</a>
+            <a href="{% url 'artists' %}" class="dropdown-item txt">All Artists</a>
             <a href="{% url 'artists' %}?category=cartoons&direction=asc" class="dropdown-item txt">Cartoons</a>
             <a href="{% url 'artists' %}?category=digital_art&direction=asc" class="dropdown-item txt">Digital Art</a>
             <a href="{% url 'artists' %}?category=manga&direction=asc" class="dropdown-item txt">Manga</a>
@@ -41,7 +41,7 @@
         </div>
     </li>
     <li class="list-inline-item dropdown mx-1">
-        <a class="nav-link link-btn" href="">
+        <a class="nav-link link-btn" href="{% url 'art-request' %}">
             <div class="text-center link-btn nav-link">
                 <h6 class="my-0 txt">Request</h6>
             </div>
