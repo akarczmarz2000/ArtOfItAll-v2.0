@@ -11,7 +11,7 @@
 }
 
 body {
-    padding-top: 20vh;
+    padding-top: 25vh;
     background-color: #ded9d9;
 }
 
@@ -22,3 +22,4 @@ body {
 .carousel-style {
     height: 40vw;
 }
+
