@@ -250,7 +250,8 @@ page title, checkout button, sign up and sign in button
 * Picture of the art displayed in a grid with the product name, 
 price, rating and description underneath the picture
 * A filter at the top corner to allow sort by.. 
-The category sort in the navigation bar as a dropdown under products
+The category sort in the navigation bar as a dropdown under products 
+and across the top will be currently selected category
 * Clicking the picture will show more information about the image on a new page
 * Selected category results will be displayed before image, 
 with the keyword and number of results returned, search will be added later

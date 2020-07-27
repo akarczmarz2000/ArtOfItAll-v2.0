@@ -36,16 +36,6 @@
                     </div>
                     <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                         <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                            <li class="list-inline-item">
-                                {% if request.user.is_authenticated %}
-                                    <div class="text-center link-btn">
-                                    <a class="nav-link" href="">
-                                        <div class="text-center"><i class="fas fa-comments"></i></div>
-                                        <h5 class="my-0 txt">Chat</h5>
-                                    </a>
-                                    </div>
-                                {% endif %}
-                            </li>
                             <li class="list-inline-item dropdown">
                                 <a class="nav-link link-btn" href="#" id="user-options" data-toggle="dropdown">
                                     <div class="text-center"><i class="fas fa-user-circle"></i></div>
@@ -70,7 +60,7 @@
                                 </div>
                             </li>
                             <li class="list-inline-item">
-                                <a class="link-btn nav-link" href="">
+                                <a class="link-btn nav-link" href="{% url 'view_bag' %}">
                                     <div class="text-center">
                                         <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                         <h5 class="my-0 txt">
@@ -97,12 +87,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-1"></div>
-                <div class="col-10 mb-5 pb-3 bdy-container txt">
+                <div class="col-10 mb-5 pb-3 bdy-container text-white">
                     {% block content %}
                     {% endblock %}
                 </div>
                 <div class="col-1"></div>
             </div>
         </div>
+    {% block postloadjs %}
+    {% endblock %}
     </body>
 </html>
