@@ -130,7 +130,7 @@ page title, checkout button, sign up and sign in button
 * Links to the products page that has a drop down for different art types
 * Links to artist of certain type of art
 ### Home Features
-* Slide with art with the tag popular cycling through
+* Slide with different art showing
 * Show a list of popular art displayed in row of 4 on normal screen,
  2 on smaller and 1 on smallest
 * Allow to refine popular by category and sort by different options
@@ -155,12 +155,9 @@ with the keyword and number of results returned
 * The form will have a box for the request they want to put in, 
 the text in there before they start typing will be an example
 ### Chat Features
-* The chat selection page will have a table of all chats made for requests
-* The table will show date of request, artists name, 
-a link to the chat and the chats current status
-* The chat page will have a box for the user to write what they want to say
-* Sent messages will have a time stamp and will have the senders name
-* Sent messages will have the content of what was sent
+* I have choosen to not create this and 
+instead send an email to the user with the artists personal email, 
+I am doing this because I don't have the time to create the things I want from the chat app.
 ### Artists Features
 * Will have a picture of the artist if availible 
 or picture of there art if not possible
@@ -195,37 +192,24 @@ will allow the user to edit any of there except username
 ## Features Left to Implement
 [Top](#table-of-content)
 ### UX Features
-* Has a link to chats that people have because of requests
 * Has checkout total and link to total bag
-* Page structure for multiple screen sizes made by Bootstrap
-* Links to artist of certain type of art
 ### Home Features
-* Slide is created, filter with the rating needed
+* Complete
 ### Products Features
 * When the add button is clicked the corrisponding product is added to basket
-* Search needs to be added
-* The size selection before adding product to there bag needs to be added
+* Size selection added, few things need sorting to have it work
 ### Policies Features
 * The page will have three titles. Purchase, request and chat policies
 * These titles will have a download link to a copy of the policies
 * Underneath the titles will be a description 
 ### Request Features
-* A form with a dropdown input with all the different artist and the help department
-* The form will have a name box for the person using it
-* The form will have a box for the request they want to put in, 
-the text in there before they start typing will be an example
+* Completed visual need to write the code to handle the post
 ### Chat Features
-* The chat selection page will have a table of all chats made for requests
-* The table will show date of request, artists name, 
-a link to the chat and the chats current status
-* The chat page will have a box for the user to write what they want to say
-* Sent messages will have a time stamp and will have the senders name
-* Sent messages will have the content of what was sent
+* I have choosen to not create this and 
+instead send an email to the user with the artists personal email, 
+I am doing this because I don't have the time to create the things I want from the chat app.
 ### Artists Features
-* Will have a picture of the artist if availible 
-or picture of there art if not possible
-* A title will have artist name and art type/s
-* Underneath will be a description of the artist and there work
+* Completed
 ### Checkout Features
 * Will have all the items in the current basket
 * These items will have a description, product name, quantity and size
@@ -270,7 +254,20 @@ The category sort in the navigation bar as a dropdown under products
 * Clicking the picture will show more information about the image on a new page
 * Selected category results will be displayed before image, 
 with the keyword and number of results returned, search will be added later
-* The user can choose quantity, size needs to be added
+### Request Features
+* A form with a dropdown input with all the different artist and the help department
+* The form will have a name box for the person using it
+* The form will have a box for the request they want to put in, 
+the text in there before they start typing will be an example
+### Chat Features
+* I have choosen to not create this and 
+instead send an email to the user with the artists personal email, 
+I am doing this because I don't have the time to create the things I want from the chat app.
+### Artists Features
+* Will have a picture of the artist if availible 
+or picture of there art if not possible
+* A title will have artist name and art type/s
+* Underneath will be a description of the artist and there work
 ### Sign In
 * Asks for username and password
 * The site uses allauth to authenticate
