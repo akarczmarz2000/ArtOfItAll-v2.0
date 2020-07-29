@@ -2,7 +2,7 @@
 {"pk": 1, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "1231567", 
 	"name": "The Killing Joke",
 	"artist": "Brian Bollard",
 	"description": "",
@@ -16,7 +16,7 @@
 {"pk": 2, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "99786756", 
 	"name": "Tain't the meat... its the humanties",
 	"artist": "Brian Bollard",
 	"description": "",
@@ -30,7 +30,7 @@
 {"pk": 3, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "567585", 
 	"name": "Judge Dread Mega-Special (1988)",
 	"artist": "Brian Bollard",
 	"description": "",
@@ -44,7 +44,7 @@
 {"pk": 4, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "1245565", 
 	"name": "The Bristol Board",
 	"artist": "Brian Bollard",
 	"description": "",
@@ -58,7 +58,7 @@
 {"pk": 5, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "5498612367", 
 	"name": "Justic League Undercover",
 	"artist": "Brian Bollard",
 	"description": "",
@@ -72,7 +72,7 @@
 {"pk": 6, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "1075647", 
 	"name": "Who is your favourite simpsons character?",
 	"artist": "Nina Matsumoto",
 	"description": "",
@@ -86,7 +86,7 @@
 {"pk": 7, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "5001340155", 
 	"name": "Ninja Stars",
 	"artist": "Nina Matsumoto",
 	"description": "",
@@ -100,7 +100,7 @@
 {"pk": 8, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "500134", 
 	"name": "Mimikyu and Ralsei",
 	"artist": "Nina Matsumoto",
 	"description": "",
@@ -114,7 +114,7 @@
 {"pk": 9, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "1340155", 
 	"name": "Warped Reality of Futurama",
 	"artist": "Nina Matsumoto",
 	"description": "",
@@ -128,9 +128,9 @@
 {"pk": 10, 
 "model": "products.product", 
 "fields": {
-	"sku": "pp5001340155", 
+	"sku": "123312", 
 	"name": "Best Friends",
-	"artist": "Tony Riff",
+	"artist": "Nina Matsumoto",
 	"description": "",
 	"price": 50.00, 
 	"category": 1, 
