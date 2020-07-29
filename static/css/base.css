@@ -23,3 +23,8 @@ body {
     height: 40vw;
 }
 
+.btn-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
