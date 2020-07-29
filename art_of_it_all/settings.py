@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'artists',
     'art-request',
     'bag',
+    'checkout',
 ]
 
 MIDDLEWARE = [
