@@ -293,3 +293,7 @@ or picture of there art if not possible
 # Acknowledgements
 [Top](#table-of-content)
 The idea for the user story layout came from Chris Z
+
+Checkout Logic and CSS
+Core logic/payment flow for this comes from here: https://stripe.com/docs/payments/accept-a-payment
+CSS from here: https://stripe.com/docs/stripe-js
