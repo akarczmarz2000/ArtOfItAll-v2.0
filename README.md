@@ -192,43 +192,26 @@ will allow the user to edit any of there except username
 ## Features Left to Implement
 [Top](#table-of-content)
 ### UX Features
-* Has checkout total and link to total bag
+* Complete
 ### Home Features
 * Complete
 ### Products Features
-* When the add button is clicked the corrisponding product is added to basket
-* Size selection added, few things need sorting to have it work
+* complete
 ### Policies Features
 * The page will have three titles. Purchase, request and chat policies
 * These titles will have a download link to a copy of the policies
 * Underneath the titles will be a description 
 ### Request Features
 * Completed visual need to write the code to handle the post
-### Chat Features
-* I have choosen to not create this and 
-instead send an email to the user with the artists personal email, 
-I am doing this because I don't have the time to create the things I want from the chat app.
 ### Artists Features
 * Completed
 ### Checkout Features
-* Will have all the items in the current basket
-* These items will have a description, product name, quantity and size
-* A total will be displayed after all the products
-* A checkout/pay button will be under that
+* Complete
 ### Profile Features
-* Will have a photo the user can choose 
-(will be default till they change it)
-* Will show the users name, 
-saved address and save billing information
-* Underneath the user information will be previous orders 
-and request information in a table
 * The table order history will show order date, product name/s, 
 overall price and link to more details
 * The table request history will show request date, artist name,
 agreed price abd link to more details
-* Edit profile button
-* The edit page will display all already know information and 
-will allow the user to edit any of there except username
 ### Sign In
 * Complete
 ### Sign Up
@@ -242,6 +225,7 @@ page title, checkout button, sign up and sign in button
 * Sign In that will allow people to login with an account made on the page
 * Sign Up that allows people to create an account for the page
 * Links to the products page that has a drop down for different art types
+* Has checkout total and link to total bag
 ### Home Features
 * Slide with art, need to create filter for popular art
 * Show a list of popular art displayed in row of 4 on normal screen,
@@ -255,6 +239,7 @@ and across the top will be currently selected category
 * Clicking the picture will show more information about the image on a new page
 * Selected category results will be displayed before image, 
 with the keyword and number of results returned, search will be added later
+* When the add button is clicked the corrisponding product is added to basket
 ### Request Features
 * A form with a dropdown input with all the different artist and the help department
 * The form will have a name box for the person using it
@@ -269,6 +254,16 @@ I am doing this because I don't have the time to create the things I want from t
 or picture of there art if not possible
 * A title will have artist name and art type/s
 * Underneath will be a description of the artist and there work
+### Checkout Features 
+* Will have all the items in the current basket
+* These items will have a description, product name, quantity and size
+* A total will be displayed after all the products
+* A checkout/pay button will be under that
+### Profile Features
+* Will show the users name, saved address and save billing information
+* Next to the user information will be previous orders
+* Edit profile button
+* The edit page will display all already know information
 ### Sign In
 * Asks for username and password
 * The site uses allauth to authenticate
@@ -277,19 +272,41 @@ or picture of there art if not possible
 * Sends confirmation email that they need to access before they are able to enter the site
 # Technologies Used
 [Top](#table-of-content)
-
+* Basgiref==3.2.10
+* Bootstrap==4
+* Django==3.1.2
+* django-allauth==0.42.0
+* django-countries==7.0
+* django-crispy-forms==1.9.2
+* oauthlib==3.1.0
+* Pillow==7.2.0
+* python3-openid==3.1.0
+* pytz==2020.1
+* requests-oauthlib==1.3.0
+* sqlparse==0.3.1
+* stripe==2.55.0
 # Deployment
 [Top](#table-of-content)
 
 # Credits
 [Top](#table-of-content)
-
-# Content
-[Top](#table-of-content)
-
+Credit to Chris Z for the course videos that help me figure out work arounds and coding logic when I got lost or confused. 
+Also credit to mentors who helped me figure out issues that I couldnt find or understand.
 # Media
 [Top](#table-of-content)
-
+The photos used in this site are in a list below; with name, artist and link to where I found them.  [
+* Name "The Killing Joke". Artist - Brian Bollard. Image URL - "https://www.wemadethis.co.uk/wp-content/uploads/2010/09/bb_killingjoke.jpg". Image Save Name - cartoon01.jpg.	
+* Name "Tain't the meat... its the humanties". Artist - Brian Bollard. Image URL - "https://i.redd.it/pwwgyt7u4nb31.jpg". Image Save Name - cartoon02.jpg.
+* Name "Judge Dread Mega-Special (1988)". Artist - Brian Bollard. Image URL - "https://preview.redd.it/pwwgyt7u4nb31.jpg?auto=webp&s=d6e4314d98ab43433fc15ad8244fe50feda25d54". Image Save Name - cartoon03.jpg.
+* Name "The Bristol Board". Artist - Brian Bollard. Image URL - "https://66.media.tumblr.com/119c3f4ee7070bb81a4897c3944f4ae1/tumblr_pb7lxb643Y1rhjbado1_1280.jpg". Image Save Name - cartoon04.jpg.
+* Name "Justic League Undercover". Artist - Brian Bollard. Image URL - "https://i.redd.it/bzhi5it3j6r41.jpg". Image Save Name - cartoon05.jpg.
+* Name "Who is your favourite simpsons character?". Artist - Nina Matsumoto. Image URL - "https://i.pinimg.com/originals/04/1d/dc/041ddc863b26a92706a6d5aab1ac52a7.jpg". Image Save Name - cartoon06.jpg.
+* Name "Ninja Stars". Artist - Nina Matsumoto. Image URL - "https://cdn.shopify.com/s/files/1/0014/1962/products/product_messenger_ninjastars_shirt_designview_1024x1024.png?v=1541194304". Image Save Name - cartoon07.jpg.
+* Name "Mimikyu and Ralsei". Artist - Nina Matsumoto. Image URL - "https://cdn.donmai.us/sample/a8/2c/__mimikyu_and_ralsei_pokemon_and_1_more_drawn_by_nina_matsumoto__sample-a82c35b9946851a13cc46762cd2ab08b.jpg". Image Save Name - cartoon08.jpg.
+* Name "Warped Reality of Futurama". Artist - Nina Matsumoto. Image URL - "https://townsquare.media/site/622/files/2011/05/ninamatsumoto8.jpg". Image Save Name - cartoon09.jpg.
+* Name "Best Friends". Artist - Tony Riff. Image URL - "https://www.pinterest.cl/pin/23010648069845720/". Image Save Name - cartoon10.jpg.
+* Image Save Name - brain_bollard.jpg. Image URL - "https://upload.wikimedia.org/wikipedia/commons/b/b8/10.9.10BrianBollandByLuigiNovi.jpg".
+* Image Save Name - nina_matsumoto.jpg. Image URL - "https://fridafantastic.files.wordpress.com/2012/04/ninamatsumoto.jpg".
 # Acknowledgements
 [Top](#table-of-content)
 The idea for the user story layout came from Chris Z
