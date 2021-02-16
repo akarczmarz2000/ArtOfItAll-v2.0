@@ -1,0 +1,1 @@
+web: gunicorn art_of_it_all.wsgi:applicationq
