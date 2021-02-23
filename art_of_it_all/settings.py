@@ -26,7 +26,7 @@ SECRET_KEY = 'vgycn-s(#rr+*m@m+9ur05=95+6omtx(bwja8x65jk_qfhl$l%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['artt-of-it-all.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['art-of-it-all.herokuapp.com', 'localhost']
 
 
 # Application definition
